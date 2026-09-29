@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Flexbox & CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo_A_2.ico" alt="Logo">
+            <span>JSAWS Zhanibek</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#flexbox-cards">Cards</a>
+            <a href="#grid-layout">Grid Layout</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <section id="flexbox-cards" class="section-container">
+        <h2>Projects</h2>
+        <div class="card-row">
+            <div class="card">
+                <img src="power_of_the_sun.png" alt="Card Image 1">
+                <div class="card-body">
+                    <h3>Power of the Sun</h3>
+                    <p>The theoretical possibility of creating stars and utilizing their energy.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="white_dwarf.png" alt="Card Image 2">
+                <div class="card-body">
+                    <h3>White Dwarf</h3>
+                    <p>Investigation of all possible properties and characteristics.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="black_hole.png" alt="Card Image 3">
+                <div class="card-body">
+                    <h3>Black Hole</h3>
+                    <p>Investigation of all possible properties and characteristics, and the study of extreme space curvature.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-layout" class="section-container">
+        <h2>Info</h2>
+        <div class="grid-page-container">
+            <header class="grid-header">Deep Space Observations and Research</header>
+            <aside class="grid-sidebar">Hubble and James Webb Space Telescope, X-Ray Detectors, Spectroscopy Filters</aside>
+            <main class="grid-main">Studying the properties and characteristics of space objects and creating simulations based on the data.</main>
+            <footer class="grid-footer">Data Stream: working...</footer>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-container">
+        <h2>Image Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2025/webb-STScI-01JKREFYNJE7MT5SG2H0FBYG75-2K.png?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint" alt="Gallery 1">
+                <div class="overlay"><span>Caption 1</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2017/06/STScI-01EVVBB1FA8NKMEP7TRFKS7H7C.tif?w=2000" alt="Gallery 2">
+                <div class="overlay"><span>Caption 2</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images-assets.nasa.gov/image/PIA26274/PIA26274~small.jpg" alt="Gallery 3">
+                <div class="overlay"><span>Caption 3</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="http://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002134/GSFC_20171208_Archive_e002134~small.jpg" alt="Gallery 4">
+                <div class="overlay"><span>Caption 4</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/content/dam/science/astro/universe/internal_resources/473/Spin.gif?w=500&h=281&fit=clip&crop=faces%2Cfocalpoint" alt="Gallery 5">
+                <div class="overlay"><span>Caption 5</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2025/07/STScI-01K0W69T4CK5TD4EZF8RCRRJ2Z.png?w=845&h=900&fit=crop&crop=faces%2Cfocalpoint" alt="Gallery 6">
+                <div class="overlay"><span>Caption 6</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/10/tess-triple-system-beauty-scale.jpg" alt="Gallery 7">
+                <div class="overlay"><span>Caption 7</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/3987/b-4.jpeg?w=1280&h=700&fit=clip&crop=faces%2Cfocalpoint" alt="Gallery 8">
+                <div class="overlay"><span>Caption 8</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/06/Animated_GIF_showing_the_family_portrait_image_from_the_perspective_of_Voyager_1_in_1990.gif?w=4000&h=2914&fit=clip&crop=faces%2Cfocalpoint" alt="Gallery 9">
+                <div class="overlay"><span>Caption 9</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-container">
+        <h2>Future Projects and Summary</h2>
+        <div class="portfolio-layout">
+            <main class="portfolio-projects">
+                <h3>Projects Grid</h3>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <h4>Chandreaskhar Limit</h4>
+                        <p>Study of the white dwarf mass limit.</p>
+                        <button class="btn">View Details</button>
+                    </div>
+                    <div class="portfolio-card">
+                        <h4>Tidal Disruption Events</h4>
+                        <p>Observation of the disruption of stars by supermassive black holes.</p>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </main>
+            <aside class="portfolio-info">
+                <h3>Summary</h3>
+                <p>This project is about space exploration, as well as the study of celestial objects and the creation of simulations of them.</p>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Zhanibek Kabdygalyk. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
